@@ -91,7 +91,7 @@
         .running-text-container { background: var(--gradient); padding: 15px 25px; border-radius: 16px; margin-bottom: 30px; overflow: hidden; display: flex; align-items: center; }
         .running-text-icon { font-size: 24px; margin-right: 20px; flex-shrink: 0; }
         .running-text-wrapper { overflow: hidden; flex: 1; }
-        .running-text { display: inline-block; white-space: nowrap; animation: marquee var(--marquee-speed, 30s) linear infinite; }
+        .running-text { display: inline-block; white-space: nowrap; animation: marquee var(--marquee-speed, 10s) linear infinite; }
         .running-text span { color: white; font-weight: 500; }
         @keyframes marquee { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
         .running-text-container:hover .running-text { animation-play-state: paused; }
@@ -1157,3 +1157,4 @@
     </script>
 </body>
 </html>
+
